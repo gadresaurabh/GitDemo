@@ -1,0 +1,50 @@
+<testsuite failures="0" name="src/test/resources/com/project/features/testFeature1.feature" skipped="0" tests="3" time="7.080376">
+  <testcase classname="src.test.resources.com.project.features.testFeature1" name="Test Karate Feature file for POST RAML cases" time="5.240207">
+    <system-out>Given def dataPrep = call read('../dataPrep/testFeature1DataPrep1.feature') . passed
+Given url 'http://dummy.restapiexample.com/api/v1/create' ................. passed
+And def json = dataPrep.testpayload ....................................... passed
+And remove json.name ...................................................... passed
+And request json .......................................................... passed
+When method post .......................................................... passed
+And assert result = responseStatus == 200 ................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.resources.com.project.features.testFeature1" name="Test Karate Feature file for POST RAML cases" time="0.926593">
+    <system-out>Given def dataPrep = call read('../dataPrep/testFeature1DataPrep1.feature') . passed
+Given url 'http://dummy.restapiexample.com/api/v1/create' ................. passed
+And def json = dataPrep.testpayload ....................................... passed
+And remove json.name ...................................................... passed
+And request json .......................................................... passed
+When method post .......................................................... passed
+And assert result = responseStatus == 200 ................................. passed
+Given def dataPrep = call read('../dataPrep/testFeature1DataPrep1.feature') . passed
+Given url 'http://dummy.restapiexample.com/api/v1/create' ................. passed
+And def json = dataPrep.testpayload ....................................... passed
+And remove json.salary .................................................... passed
+And request json .......................................................... passed
+When method post .......................................................... passed
+And assert result = responseStatus == 200 ................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.resources.com.project.features.testFeature1" name="Test Karate Feature file for POST RAML cases" time="0.913577">
+    <system-out>Given def dataPrep = call read('../dataPrep/testFeature1DataPrep1.feature') . passed
+Given url 'http://dummy.restapiexample.com/api/v1/create' ................. passed
+And def json = dataPrep.testpayload ....................................... passed
+And remove json.name ...................................................... passed
+And request json .......................................................... passed
+When method post .......................................................... passed
+And assert result = responseStatus == 200 ................................. passed
+Given def dataPrep = call read('../dataPrep/testFeature1DataPrep1.feature') . passed
+Given url 'http://dummy.restapiexample.com/api/v1/create' ................. passed
+And def json = dataPrep.testpayload ....................................... passed
+And remove json.salary .................................................... passed
+And request json .......................................................... passed
+When method post .......................................................... passed
+And assert result = responseStatus == 200 ................................. passed
+Given def dataPrep = call read('../dataPrep/testFeature1DataPrep1.feature') . passed
+Given url 'http://dummy.restapiexample.com/api/v1/create' ................. passed
+And def json = dataPrep.testpayload ....................................... passed
+And remove json.age ....................................................... passed
+And request json .......................................................... passed
+When method post .......................................................... passed
+And assert result = responseStatus == 200 ................................. passed</system-out>
+  </testcase>
+</testsuite>

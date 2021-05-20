@@ -1,0 +1,464 @@
+14:06:56.798 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:06:59.083 [print] Inside dataPrep
+14:07:00.453 request:
+1 > POST http://dummy.restapiexample.com/api/v1/create
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 27
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.2)
+{"salary":"123","age":"23"}
+
+14:07:02.041 response time in milliseconds: 1579.66
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Content-Length: 75
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Mon, 29 Jun 2020 13:07:01 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pragma: no-cache
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Set-Cookie: PHPSESSID=23dc78f0615fdaf0c81e41ca90142f08; path=/
+1 < Vary: [Accept-Encoding, Accept-Encoding,Origin,X-APP-JSON]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":{"name":null,"salary":"123","age":"23","id":57}}
+
+14:07:02.113 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:07:02.155 [print] Inside dataPrep
+14:07:02.165 request:
+1 > POST http://dummy.restapiexample.com/api/v1/create
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 26
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.2)
+{"name":"test","age":"23"}
+
+14:07:03.038 response time in milliseconds: 869.55
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Content-Length: 76
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Mon, 29 Jun 2020 13:07:02 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pragma: no-cache
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Set-Cookie: PHPSESSID=2f7873878de8dcdb5154ce11ab2d8897; path=/
+1 < Vary: [Accept-Encoding, Accept-Encoding,Origin,X-APP-JSON]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":{"name":"test","salary":null,"age":"23","id":39}}
+
+14:07:03.097 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+14:07:03.137 [print] Inside dataPrep
+14:07:03.154 request:
+1 > POST http://dummy.restapiexample.com/api/v1/create
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 30
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.2)
+{"name":"test","salary":"123"}
+
+14:07:04.010 response time in milliseconds: 853.87
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Content-Length: 77
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Mon, 29 Jun 2020 13:07:03 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pragma: no-cache
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Set-Cookie: PHPSESSID=8149a7ee193a45b46663e3ff7be0856e; path=/
+1 < Vary: [Accept-Encoding, Accept-Encoding,Origin,X-APP-JSON]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":{"name":"test","salary":"123","age":null,"id":91}}
+
+: "2",
+      "employee_age": "63"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Ashton Cox",
+      "employee_salary": "86000",
+      "id": "3",
+      "employee_age": "66"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Cedric Kelly",
+      "employee_salary": "433060",
+      "id": "4",
+      "employee_age": "22"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Airi Satou",
+      "employee_salary": "162700",
+      "id": "5",
+      "employee_age": "33"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Brielle Williamson",
+      "employee_salary": "372000",
+      "id": "6",
+      "employee_age": "61"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Herrod Chandler",
+      "employee_salary": "137500",
+      "id": "7",
+      "employee_age": "59"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Rhona Davidson",
+      "employee_salary": "327900",
+      "id": "8",
+      "employee_age": "55"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Colleen Hurst",
+      "employee_salary": "205500",
+      "id": "9",
+      "employee_age": "39"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Sonya Frost",
+      "employee_salary": "103600",
+      "id": "10",
+      "employee_age": "23"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Jena Gaines",
+      "employee_salary": "90560",
+      "id": "11",
+      "employee_age": "30"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Quinn Flynn",
+      "employee_salary": "342000",
+      "id": "12",
+      "employee_age": "22"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Charde Marshall",
+      "employee_salary": "470600",
+      "id": "13",
+      "employee_age": "36"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Haley Kennedy",
+      "employee_salary": "313500",
+      "id": "14",
+      "employee_age": "43"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": "385750",
+      "id": "15",
+      "employee_age": "19"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Michael Silva",
+      "employee_salary": "198500",
+      "id": "16",
+      "employee_age": "66"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Paul Byrd",
+      "employee_salary": "725000",
+      "id": "17",
+      "employee_age": "64"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Gloria Little",
+      "employee_salary": "237500",
+      "id": "18",
+      "employee_age": "59"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Bradley Greer",
+      "employee_salary": "132000",
+      "id": "19",
+      "employee_age": "41"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Dai Rios",
+      "employee_salary": "217500",
+      "id": "20",
+      "employee_age": "35"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": "345000",
+      "id": "21",
+      "employee_age": "30"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Yuri Berry",
+      "employee_salary": "675000",
+      "id": "22",
+      "employee_age": "40"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Caesar Vance",
+      "employee_salary": "106450",
+      "id": "23",
+      "employee_age": "21"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Doris Wilder",
+      "employee_salary": "85600",
+      "id": "24",
+      "employee_age": "23"
+    }
+  ],
+  "status": "success"
+}
+
+13:57:25.003 [print] ca99dc3e-2224-45d7-8194-14acecce13da
+13:57:25.046 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:57:25.096 [print] Inside dataPrep
+13:57:25.155 request:
+1 > POST http://dummy.restapiexample.com/api/v1/create
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 41
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.2)
+{"name":"test","salary":"123","age":"23"}
+
+13:57:25.795 response time in milliseconds: 636.82
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Content-Length: 77
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Mon, 29 Jun 2020 12:57:25 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pragma: no-cache
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Set-Cookie: PHPSESSID=25c883517d48389e48b441e8505c4147; path=/
+1 < Vary: [Accept-Encoding, Accept-Encoding,Origin,X-APP-JSON]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":{"name":"test","salary":"123","age":"23","id":35}}
+
+13:57:25.799 [print] {
+  "data": {
+    "name": "test",
+    "id": 35,
+    "salary": "123",
+    "age": "23"
+  },
+  "status": "success"
+}
+
+13:57:25.849 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:57:25.902 [print] Inside dataPrep
+13:57:25.908 request:
+1 > POST http://dummy.restapiexample.com/api/v1/create
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 41
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.2)
+{"name":"test","salary":"111","age":"23"}
+
+13:57:26.626 response time in milliseconds: 713.12
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Content-Length: 77
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Mon, 29 Jun 2020 12:57:26 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pragma: no-cache
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Set-Cookie: PHPSESSID=8f93a1f17670f1a2416f2bdde4fe34dc; path=/
+1 < Vary: [Accept-Encoding, Accept-Encoding,Origin,X-APP-JSON]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":{"name":"test","salary":"111","age":"23","id":83}}
+
+13:57:26.630 [print] {
+  "data": {
+    "name": "test",
+    "id": 83,
+    "salary": "111",
+    "age": "23"
+  },
+  "status": "success"
+}
+
+13:57:26.702 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:57:26.743 [print] Inside dataPrep
+13:57:26.830 request:
+1 > POST http://dummy.restapiexample.com/api/v1/create
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 27
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.2)
+{"salary":"123","age":"23"}
+
+13:57:27.669 response time in milliseconds: 835.74
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Content-Length: 75
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Mon, 29 Jun 2020 12:57:27 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pragma: no-cache
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Set-Cookie: PHPSESSID=b240aafd698d4b4159252b8f8acb6a36; path=/
+1 < Vary: [Accept-Encoding, Accept-Encoding,Origin,X-APP-JSON]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":{"name":null,"salary":"123","age":"23","id":33}}
+
+13:57:27.918 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:57:27.944 [print] Inside dataPrep
+13:57:27.953 request:
+1 > POST http://dummy.restapiexample.com/api/v1/create
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 26
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.2)
+{"name":"test","age":"23"}
+
+13:57:28.666 response time in milliseconds: 707.88
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Content-Length: 76
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Mon, 29 Jun 2020 12:57:28 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pragma: no-cache
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Set-Cookie: PHPSESSID=9b462891735d617ca123e89a8ce35379; path=/
+1 < Vary: [Accept-Encoding, Accept-Encoding,Origin,X-APP-JSON]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":{"name":"test","salary":null,"age":"23","id":97}}
+
+13:57:28.769 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:57:28.826 [print] Inside dataPrep
+13:57:28.839 request:
+1 > POST http://dummy.restapiexample.com/api/v1/create
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 30
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.2)
+{"name":"test","salary":"123"}
+
+13:57:29.608 response time in milliseconds: 754.47
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Content-Length: 77
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Mon, 29 Jun 2020 12:57:29 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Pragma: no-cache
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Set-Cookie: PHPSESSID=a1e8c224d54352bba9f3cd912c423efa; path=/
+1 < Vary: [Accept-Encoding, Accept-Encoding,Origin,X-APP-JSON]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":{"name":"test","salary":"123","age":null,"id":39}}
+
+}
+
